@@ -1,0 +1,117 @@
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+input[type="text"],
+select {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #f7e05d;
+  color: rgb(40, 40, 40);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+  color: rgb(255, 255, 255);
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.city-list {
+  list-style: none;
+  padding: 0;
+}
+
+.city-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.city-list-item button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.city-list-item button:hover {
+  background-color: #c82333;
+}
+
+.time-zone-selector {
+  margin: 10px 0;
+}
+
+label {
+  font-size: 16px;
+  display: block;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.city-clock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.city-clock h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.city-clock p {
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  outline: none; 
+}
+
+select:focus {
+  outline: none; 
+}
+
+span {
+  margin-right: 10px;
+}
+
